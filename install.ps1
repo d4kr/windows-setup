@@ -7,7 +7,7 @@ Disable-UAC
 # Show hidden files, Show protected OS files, Show file extensions
 #Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 # Show file extensions
-Set-WindowsExplorerOptions -EnableShowFileExtensions
+Set-WindowsExplorerOptions -DisableShowFileExtensions
 
 
 #--- File Explorer Settings ---
